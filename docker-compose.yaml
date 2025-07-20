@@ -1,0 +1,23 @@
+# zf250720.1434
+# Sources: https://noted.lol/comfyui/
+
+services:
+    comfyui-boot:
+        stdin_open: true
+        tty: true
+        container_name: comfyui-cu124
+        ports:
+            - 8288:8188
+        volumes:
+            - '/docker/ComfyUIdocker:/root'
+        image: yanwk/comfyui-boot:cu124-slim
+        deploy:
+            resources:
+                reservations:
+                    devices:
+                        - driver: nvidia
+                          count: all
+                          capabilities:
+                              - gpu
+
+
