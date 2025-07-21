@@ -9,7 +9,7 @@ Il suffit juste de faire:
 ````
 git clone https://github.com/zuzu59/z-comfyui.git
 ````
-Et on part du principe que Docker et Docker Compse sont déjà installé mais aussi les Nvidia Docker Tools (qui permet d'utiliser le GPU Nvidia depuis un container Docker)
+Et on part du principe que Docker et Docker Compse sont déjà installés mais aussi les Nvidia Docker Tools (qui permet d'utiliser le GPU Nvidia depuis un container Docker)
 
 
 ## Utilisation
