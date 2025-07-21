@@ -1,7 +1,7 @@
 # z-comfyui
 Juste une installation facile de comfyui dans une vm Ubuntu de  Proxmox
 
-zf250720.1428
+zf250720.1428, zf250721.2245
 
 
 ## Installation
@@ -29,4 +29,6 @@ puis effacer les dossiers ./data<br>
 enfin un *docker system prune -a -f --volumes*<br>
 
 ## Sources:
+https://hub.docker.com/r/yanwk/comfyui-boot<br>
+https://noted.lol/comfyui/
 
