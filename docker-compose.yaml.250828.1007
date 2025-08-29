@@ -1,20 +1,18 @@
-# zf250720.1447, zf250728.1007
-# Sources:
-# https://github.com/YanWenKun/ComfyUI-Docker/tree/main
-# https://hub.docker.com/r/yanwk/comfyui-boot
-# https://noted.lol/comfyui/
+# zf250720.1447
+# Sources: https://hub.docker.com/r/yanwk/comfyui-boot
+# Sources: https://noted.lol/comfyui/
 
 services:
     comfyui-boot:
         stdin_open: true
         tty: true
-        container_name: comfyui-cu129
+        container_name: comfyui-cu124
         ports:
             - 8288:8188
         volumes:
             - ./data:/root
-        image: yanwk/comfyui-boot:cu129-slim
-#        image: yanwk/comfyui-boot:cu129-megapak
+        image: yanwk/comfyui-boot:cu124-slim
+#        image: yanwk/comfyui-boot:cu124-megapak
         deploy:
             resources:
                 reservations:
